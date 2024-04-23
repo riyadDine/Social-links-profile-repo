@@ -24,7 +24,7 @@ A minimalist social profile layout in HTML/CSS, showcasing centered link element
 ### Links
 
 - Solution URL: (https://github.com/riyadDine/Social-links-profile-repo)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://riyaddine.github.io/Social-links-profile-repo/))
 
 ### Built with
 
