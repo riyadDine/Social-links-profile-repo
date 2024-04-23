@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf")
+    format("truetype");
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1.2rem;
+  padding: 1.5rem 1.5rem 1rem;
+  margin-bottom: 0.7rem;
+  width: min(90vw, 450px);
+  text-align: center;
+}
+
+.profile {
+  object-fit: cover;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.container span,
+.name {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.name {
+  font-size: 1.5rem;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+
+.hobby {
+  margin-top: 1.5rem;
+  font-weight: lighter;
+}
+
+.social-list {
+  margin-top: 1rem;
+}
+
+.social-list li {
+  list-style: none;
+  height: 2.2rem;
+  line-height: 2.2rem;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.social-list li a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
